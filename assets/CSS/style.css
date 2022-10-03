@@ -60,3 +60,65 @@ header{
 }
 /* fine nav bar pc */
 /* inizio header per smartphone, tablet */
+
+/* inizio prima sezione */
+/* prima card */
+.first{
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.first-section-card, .second-section-card{
+    background-color: #afc5ff;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.first-section-card h3{
+    color: #24527a;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.first-section-card .apple-btn{
+    padding: 15px 0px;
+}
+
+.first-section-card button {
+    background-color: blue;
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px 70px;
+    border: none;
+}
+
+.first-section-card > .apple-btn > button > i{
+    padding-right: 8px;
+}
+
+.first-section-card img{
+    width: 200px;
+    height: 160px;
+    margin-left: 50px;
+}
+/* fine prima card */
+/* inizio seconda card */
+.second-section-card{
+    text-align: center;
+}
+
+.second-section-card .fa-file-code{
+    font-size: 70px;
+    padding: 25px 0px;
+}
+
+.second-section-card h3, .fa-file-code{
+    color: blue;
+}
+
+.second-section-card p {
+    padding: 20px 0px;
+}
+/* fine seconda card */
