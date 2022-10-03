@@ -8,6 +8,55 @@
     display: flex;
 }
 
+.wht{
+    color: white;
+}
+
 /* utilities */
 
+/* inizio header per smartphone, tablet */
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: aqua;
+}
 
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-menu-pc{
+    display: none;
+}
+
+/* nav bar per il pc */
+@media screen and (min-width: 1024px) {
+  
+    .header-container{
+        width: 80%;
+        margin: auto;
+    }
+
+    .header-menu-pc{
+        align-items: center;
+    }
+
+   .header-menu-pc ul > li{
+    list-style:none ;
+    display: inline-block;
+    padding-right: 20px;
+   }
+
+   .btn-white{
+    background-color: white;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    border: none;
+   }
+}
+/* fine nav bar pc */
+/* inizio header per smartphone, tablet */
