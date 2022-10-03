@@ -109,12 +109,12 @@ header{
     text-align: center;
 }
 
-.second-section-card .fa-file-code{
+.second-section-card .fa-file-code, .fa-compass-drafting, .fa-laptop-code, .fa-bullhorn{
     font-size: 70px;
     padding: 25px 0px;
 }
 
-.second-section-card h3, .fa-file-code{
+.second-section-card h3, .fa-file-code, .fa-compass-drafting, .fa-laptop-code, .fa-bullhorn {
     color: blue;
 }
 
