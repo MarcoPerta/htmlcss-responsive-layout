@@ -193,11 +193,11 @@ header{
     margin-bottom: 20px;
 }
 
-.container-second h2, p{
+.container-second h2,.container-second p{
     padding-bottom: 20px;
 }
 
-.container-second p{
+.container-second > p{
     line-height: 25px;
 }
 
@@ -215,6 +215,9 @@ header{
 /* fine seconda section mobile 1° */
 /* inizio seconda section x tablet e pc */
 @media screen and (min-width: 1024px){
+    .container-second{
+        flex-direction: row;
+    }
     .container-second div{
         flex-basis: 50%;
         margin-top: 110px;
@@ -225,7 +228,76 @@ header{
         padding: 20px 0px;
     }
 
-    .container-second h2, p{
+    .container-second > h2,.container-second > p{
         padding-top: 20px;
     }
 }
+/* fine seconda section x tablet e pc */
+/* inizio terza section mobile 1° */
+.testimonials{
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.third > h4{
+    padding: 20px 0px;
+}
+
+.third > h2{
+    color:#d59bf6;
+    padding-bottom: 20px;
+}
+
+.third > p {
+    padding-bottom: 20px;
+}
+
+.third .testimonials{
+    background-color:#d59bf6 ;
+    border-radius: 40px;
+}
+
+.testimonials > .left {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.test-lorem{
+    padding: 30px 0px;
+}
+
+.test-name{
+    padding: 20px 0px;
+}
+
+.testimonials > div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* fine terza section mobile 1° */
+/* inizio terza section per tablet e pc */
+@media screen and (min-width: 469px){
+    .testimonials{
+        flex-direction: row;
+    }
+
+    .left{
+        flex-basis: 15%;
+    }
+    .right{
+        flex-basis: 85%;
+    }
+
+    .testimonials .test-lorem {
+        padding: 50px 50px;
+    }
+
+    .testimonials > div img{
+        margin: 0px 20px;
+    }
+}
+/* fine terza section per tablet e pc */
