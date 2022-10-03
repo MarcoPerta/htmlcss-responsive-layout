@@ -25,6 +25,10 @@
     margin: auto;
 }
 
+.mrgn-auto{
+    margin: auto;
+}
+
 /* utilities */
 
 /* inizio header per smartphone, tablet */
@@ -411,8 +415,74 @@ header{
     }
 }
 /* fine quinta sezione tablet e pc */
+/* inizia sesta sezione mobile 1° */
+.sixth{
+    background-color: #d59bf6;
+    margin-top: 180px;
+}
+.sixth span{
+    color: grey;
+    padding: 20px 0px;
+}
 
+.sixth h1{
+    color: yellow;
+    padding: 20px 0px;
+    font-size: 50px;
+}
 
+.sixth p{
+    padding: 20px 0px;
+}
+
+.sixth-text{
+    margin-left: 13%;
+}
+
+.giga-btn{
+    border: none;
+    color: #d59bf6;
+    padding: 20px 70px;
+    border-radius: 35px;
+    background-color: white;
+    margin-left: 15%;
+}
+
+/* inizio quinta sezione tablet e pc */
+@media screen and (min-width: 469px){
+    .giga-btn{
+        margin-left: 25%;
+    }
+
+    .copyright{
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width: 469px){
+    .giga-btn{
+        margin-left: 30%;
+    }
+
+    .copyright{
+        margin-left: 25%;
+    }
+}
+/* fine quinta sezione tablet e pc */
+/* fine sesta sezione mobile 1° */
+
+/* inizia settima sezione mobile 1° */
+.seventh-container{
+    padding-left: 20px;
+}
+.seventh{
+    background-color: black;
+}
+
+.seventh p{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+/* fine settima sezione mobile 1° */
 
 
 
