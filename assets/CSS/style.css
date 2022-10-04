@@ -435,9 +435,6 @@ header{
     padding: 20px 0px;
 }
 
-.sixth-text{
-    margin-left: 13%;
-}
 
 .giga-btn{
     border: none;
@@ -445,29 +442,8 @@ header{
     padding: 20px 70px;
     border-radius: 35px;
     background-color: white;
-    margin-left: 15%;
 }
 
-/* inizio quinta sezione tablet e pc */
-@media screen and (min-width: 469px){
-    .giga-btn{
-        margin-left: 25%;
-    }
-
-    .copyright{
-        margin-left: 15%;
-    }
-}
-@media screen and (min-width: 469px){
-    .giga-btn{
-        margin-left: 30%;
-    }
-
-    .copyright{
-        margin-left: 25%;
-    }
-}
-/* fine quinta sezione tablet e pc */
 /* fine sesta sezione mobile 1° */
 
 /* inizia settima sezione mobile 1° */
